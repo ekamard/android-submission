@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ekamard.mofyiapi.uiandvm.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/nav_movies"
+        android:name="com.ekamard.mofyiapi.uiandvm.movies.MoviesFragment"
+        android:label="movies_fragment"
+        tools:layout="@layout/movies_fragment" />
+    <fragment
+        android:id="@+id/nav_tvShow"
+        android:name="com.ekamard.mofyiapi.uiandvm.tvshows.TvShowsFragment"
+        android:label="tv_shows_fragment"
+        tools:layout="@layout/tv_shows_fragment" />
+    <fragment
+        android:id="@+id/nav_actor"
+        android:name="com.ekamard.mofyiapi.uiandvm.actor.ActorsFragment"
+        android:label="actors_fragment2"
+        tools:layout="@layout/actors_fragment2" />
+</navigation>

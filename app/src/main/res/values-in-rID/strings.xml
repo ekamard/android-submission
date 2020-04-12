@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MofyiV2</string>
+    <string name="home">Beranda</string>
+    <string name="movies">Film</string>
+    <string name="tv_shows">Acara Tv</string>
+    <string name="actors">Aktor</string>
+    <string name="upcoming_movies">Film Akan Datang</string>
+    <string name="welcome_back">Selamat Datang!</string>
+    <string name="top_rated_tv_shows">Acara Tv Terbaik</string>
+    <string name="watch_trailer">Tonton trailer</string>
+    <string name="upcoming_tv_show">Acara Tv Mendatang</string>
+    <string name="network_error_notification">Mohon cek koneksi internet anda…</string>
+    <string name="popular_actors">Aktor terpopuler</string>
+    <string name="votes_here">Dukung disini!</string>
+    <string name="details_info">Info Detail</string>
+    <string name="status">Status</string>
+    <string name="release_date">Tanggal tayang</string>
+    <string name="top_caster">Aktor termahal</string>
+    <string name="last_release">Tayang terkahir kali</string>
+    <string name="original_language">Bahasa asli</string>
+    <string name="total_episode">Jumlah episode</string>
+    <string name="total_seasons">Jumlah season</string>
+    <string name="next_episode_released">Penayangan selanjutnya</string>
+    <string name="user_vote_average">Pemilihan oleh user</string>
+    <string name="voting_greeting">Terima kasih telah memvoting!</string>
+    <string name="trending_now">Viral saat ini</string>
+    <string name="genres">Genre</string>
+    <string name="playing_now">Tayang saat ini</string>
+    <string name="top_rated">Rating Tertinggi</string>
+</resources>

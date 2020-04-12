@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="false">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_actor"
+            android:layout_width="160dp"
+            android:layout_height="210dp"
+            android:scaleType="fitXY"
+            tools:src="@drawable/choyeojung" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_twitter"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/twitter" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="160dp"
+                android:layout_toRightOf="@+id/btn_twitter"
+                android:background="@drawable/insta" />
+
+            <TextView
+                android:id="@+id/tv_actor_name"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_twitter"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:maxLines="1"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:text="Cho Yeo Jung" />
+        </RelativeLayout>
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

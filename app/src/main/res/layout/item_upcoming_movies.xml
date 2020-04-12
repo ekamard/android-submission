@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="false">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_mv_upcoming"
+            android:layout_width="140dp"
+            android:layout_height="190dp"
+            android:layout_margin="4dp"
+            android:scaleType="fitXY"
+            tools:src="@drawable/poster_a_start_is_born" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_mv_upcoming"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/tv_mv_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                tools:text="9.5" />
+
+            <ImageView
+                android:id="@+id/tmdb_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/tv_mv_rating"
+                android:src="@drawable/tmdb_icon" />
+
+            <Button
+                android:id="@+id/btn_like"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="4dp"
+                android:layout_toRightOf="@+id/tmdb_icon"
+                android:background="@drawable/ic_thumb_up_blue_24dp" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@+id/btn_like"
+                android:background="@drawable/ic_share_blue_24dp" />
+
+            <TextView
+                android:id="@+id/tv_mv_title"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_mv_rating"
+                android:layout_gravity="bottom"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="Star Is Born" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

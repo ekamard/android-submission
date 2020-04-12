@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MofyiV2</string>
+    <string name="home">Home</string>
+    <string name="movies">Movies</string>
+    <string name="tv_shows">TV Shows</string>
+    <string name="actors">Actors</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="welcome_back">Welcome back !</string>
+    <string name="top_rated_tv_shows">Top Rated Tv Shows</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="upcoming_tv_show">Upcoming Tv Show</string>
+    <string name="network_error_notification">Please Check your internet Connection…</string>
+    <string name="popular_actors">Popular Actors</string>
+    <string name="user_vote_average">User Vote</string>
+    <string name="votes_here">Vote\'s here!</string>
+    <string name="details_info">Details Info</string>
+    <string name="status">Status</string>
+    <string name="release_date">Release Date</string>
+    <string name="top_caster">Top Billed Caster</string>
+    <string name="last_release">Last Release</string>
+    <string name="original_language">Original Language</string>
+    <string name="total_episode">Total Episode</string>
+    <string name="total_seasons">Total Seasons</string>
+    <string name="next_episode_released">Next Episode Released</string>
+    <string name="voting_greeting">Thanks for voting!</string>
+    <string name="trending_now">Trending Now</string>
+    <string name="genres">Genres</string>
+    <string name="playing_now">Playing Now</string>
+    <string name="top_rated">Top Rated</string>
+</resources>

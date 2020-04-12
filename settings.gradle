@@ -1,0 +1,2 @@
+rootProject.name='MofyiV2'
+include ':app'
